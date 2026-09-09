@@ -1,165 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zinnia Interiors</title>
-</head>
-<body>
-    <header>
-        <a href="#hero-section"><p><b>Zinnia</b> Interiors</p></a>
-        <nav>
-            <ul style="list-style-type: none">
-                <li>
-                    <a href="#hero-section">Home</a>
-                </li>
-                <li>
-                    <a href="#about-section">About</a>
-                </li>
-                <li>
-                    <a href="#services-section">services</a>
-                </li>
-                
-                <li>
-                    <a href="#contacts-section">Contacts</a>
-                </li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zinnia Interiors — A home that knows your name</title>
+    <meta
+      name="description"
+      content="Zinnia Interiors: tell us about yourself and we'll open a design profile built around you."
+    />
 
-            </ul>
-        </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="logo" href="#top">Zinnia&nbsp;Interiors</a>
+        <p class="tagline">Interiors, tailored to the life you actually live</p>
+      </div>
     </header>
-    <main>
-        <section id="hero-section">
-            <h1>Zinnia Interiors</h1>
-            <p>Designing for health, safety and Welfare</p>
-            <img 
-            src="living-room.jpeg" 
-            alt="image of a living room" 
-            style="width: 100%; height: 500px"
-            />
-       
 
-        </section>
-        <section id="about-section">
-            <h2>About Zinnia Interiors</h2>
-            <p>
-                WHO WE ARE
-Zinnia Interiors is a premier interior design and construction firm based in Nairobi, Kenya. We specialize in creating high-performance spaces for corporate, banking, hospitality, and institutional clients.
+    <main id="top">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <h1>A home that<br />knows your name.</h1>
+          <p class="lede">
+            Tell us a little about yourself and we'll open a design profile
+            built just for you — down to the rooms you'll live in every day, and
+            the ones you're not quite old enough for yet.
+          </p>
+          <a class="button button-primary" href="#intake">Start my profile</a>
+        </div>
 
-Our approach combines disciplined project management with creative design thinking, ensuring every project is delivered on time, within budget, and to the highest quality standards.
-            </p>
-            <h2>Mission</h2>
-            <p>
-                To be the preferred interior design and build company within our regional boarders by providing creative, effective and affordable services in all constitute areas of design and construction.
-            </p>
-            <h2>Vision</h2>
-            <p>
-                To our clients:
-To engage with our clients and exceed their expectations by providing them with Design Forty’s per-eminet services in design, construction and after sales maintenance.
-
-To our employees:
-To make Design Forty the employer of choice by offering employees a dynamic and challenging work environment which fosters personal and professional growth.
-
-To our community:
-To work with the community within which we operate in areas of improving their lives through leadership-driven corporate social responsibility charter.
-
-To our stakeholders:
-To deliver consistent value addition to our stakeholders.
-            </p>
-            
-        </section>
-        <section id="services-section">
-           <h2>What we offer</h2>
-        <div id="services-container">
-          <div>
-            <h3>
-                <b>Interior Design Consultancy</b>
-            </h3>
-            <h4>
-                <em>TAILORED INTERIOR DESIGN GUIDANCE</em>
-                </h4>
-            <p>
-              Imagine the feeling of an office or a home designed to fit your lifestyle and reflect your personality. The benefits are clear. When you combine a pleasing colour schedme; fre-flowing and functional space; perfect mood lighting and clever storage, you get pleasurable home and office experiences and a happier life.
-
-It's a desire we all share. Yet busy lived and a lack of confidence often get in the way. Thankfully, our Interior Designers are ready to help, with one goal: to co-create your dream space.
-            </p>
-        
-          </div>
-          <div>
-            <h3>
-                <b>Design & Build</b>
-            </h3>
-            <h4>
-                <em>ONE TEAM. ONE RESPONSIBILITY</em>
-                </h4>
-            <p>
-             A smoother project journey starts with a single accountable team. We integrate architecture, design, and construction into one seamless process  ensuring continuity from first concept to final delivery, with no gaps, no miscommunication, and no disconnect between vision and execution.
-            </p>
-          </div>
-          <div>
-            
-           
-        <h1>
-            <i>Reach us</i>
-        </h1>
-        <b>
-        <p>
-            <em>Get in touch</em>
-        </p>
-        </b>
-        <label for="first_name">First Name</label>
-        <input type="text" name="first_name" required placeholder="enter your first name">
-      
-        <label for="last_name">Last Name</label>
-        <input type="text" name="last_name" placeholder="Enter you last name" required>
-
-        <label for="phone_number">Phone Number</label>
-        <input type="tel" name="phone_number" placeholder="0712345678" required>
-
-        <label for="email">Email Adress</label>
-        <input type="email" name="email" placeholder="Enter you email" required>
-
-        <label for="password">Password</label>
-        <input type="password" name="password" placeholder="********" required>
-
-        <p>Choose your Gender</p>
-        <label for="female">Female</label>
-        <input type="radio" name="gender">
-        
-        <label for="male">Male</label>
-        <input type="radio" name="gender">
-        
-
-    i7
-
-        
-    </form>
+        <div>
+          <img
+            src="living-room.jpeg"
+            alt="Image of a living-room"
+            width="400px"
+            ,
+            height="300px"
+          />
+        </div>
       </section>
-    </main>
-    <footer>
-        <nav>
-        <ul style="list-style-type: none">
-          <li>
-            <a href="#hero-section">Home</a>
-          </li>
-          <li>
-            <a href="#about-section">About</a>
-          </li>
-          <li>
-            <a href="#services-section">services</a>
-          </li>
-          <li>
-            <a href="#contact-section">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      </footer>
-  </body>
-</html> 
 
-        </section>
+      <section class="intake wrap" id="intake">
+        <div class="intake-card">
+          <h2>Tell us about you</h2>
+          <p class="intake-hint">
+            This stays on your device — saved in your browser's storage, not on
+            our servers.
+          </p>
+
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" placeholder="e.g. Amara Okoro" />
+          </div>
+
+          <div class="field">
+            <label for="age">Your age</label>
+            <input type="number" id="age" placeholder="e.g. 27" />
+          </div>
+
+          <button id="submit-button" class="button button-primary">
+            Build my profile
+          </button>
+        </div>
+      </section>
+
+      <section class="wrap profile" id="profile-output">
+        <div class="profile-banner">
+          <p id="greeting" class="greeting-text"></p>
+        </div>
+
+        <div class="profile-grid">
+          <div class="stat-card">
+            <p class="stat-label">Time you've spent on this earth so far</p>
+            <p id="age-months" class="stat-number-text"></p>
+          </div>
+
+          <div class="stat-card access-card">
+            <h3>Your collection</h3>
+            <p id="collection-access"></p>
+          </div>
+        </div>
+
+        <div class="swatches">
+          <h3>Our design philosophy, stamped five times because we mean it</h3>
+          <div id="quotes" class="swatch-row"></div>
+        </div>
+      </section>
+
+      <script src="script.js"></script>
     </main>
-    
-</body>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>&copy; <span id="year"></span> Zinnia Interiors Ltd.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
